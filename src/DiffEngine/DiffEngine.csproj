@@ -6,6 +6,7 @@
     <TargetFrameworks>netstandard2.0;netstandard2.1;net461</TargetFrameworks>
   </PropertyGroup>
   <ItemGroup>
+    <PackageReference Include="System.Drawing.Common" Version="11.0.0" />
     <Compile Include="..\DiffEngineTray\JsonEscaping.cs" Link="Tray\JsonEscaping.cs" />
     <Compile Include="..\DiffEngineTray\PiperClient.cs" Link="Tray\PiperClient.cs" />
     <PackageReference Include="Caseless.Fody" Version="1.9.1" PrivateAssets="All" />
